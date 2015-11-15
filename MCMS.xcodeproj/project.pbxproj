@@ -13,6 +13,9 @@
 		17536F8B1BC4577600F7A26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17536F891BC4577600F7A26D /* Main.storyboard */; };
 		17536F8D1BC4577600F7A26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17536F8C1BC4577600F7A26D /* Assets.xcassets */; };
 		17536F901BC4577600F7A26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17536F8E1BC4577600F7A26D /* LaunchScreen.storyboard */; };
+		17536F991BC457C000F7A26D /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 17536F981BC457C000F7A26D /* MagicalCreature.m */; settings = {ASSET_TAGS = (); }; };
+		17536F9C1BC4620800F7A26D /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17536F9B1BC4620800F7A26D /* CreatureViewController.m */; settings = {ASSET_TAGS = (); }; };
+		17AEFFF71BC4F6EB003897C5 /* BattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AEFFF61BC4F6EB003897C5 /* BattleViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		17536F8C1BC4577600F7A26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17536F8F1BC4577600F7A26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17536F911BC4577600F7A26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17536F971BC457C000F7A26D /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		17536F981BC457C000F7A26D /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
+		17536F9A1BC4620800F7A26D /* CreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureViewController.h; sourceTree = "<group>"; };
+		17536F9B1BC4620800F7A26D /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
+		17AEFFF51BC4F6EB003897C5 /* BattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleViewController.h; sourceTree = "<group>"; };
+		17AEFFF61BC4F6EB003897C5 /* BattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +69,15 @@
 			children = (
 				17536F831BC4577600F7A26D /* AppDelegate.h */,
 				17536F841BC4577600F7A26D /* AppDelegate.m */,
+				17536F891BC4577600F7A26D /* Main.storyboard */,
 				17536F861BC4577600F7A26D /* ViewController.h */,
 				17536F871BC4577600F7A26D /* ViewController.m */,
-				17536F891BC4577600F7A26D /* Main.storyboard */,
+				17536F9A1BC4620800F7A26D /* CreatureViewController.h */,
+				17536F9B1BC4620800F7A26D /* CreatureViewController.m */,
+				17AEFFF51BC4F6EB003897C5 /* BattleViewController.h */,
+				17AEFFF61BC4F6EB003897C5 /* BattleViewController.m */,
+				17536F971BC457C000F7A26D /* MagicalCreature.h */,
+				17536F981BC457C000F7A26D /* MagicalCreature.m */,
 				17536F8C1BC4577600F7A26D /* Assets.xcassets */,
 				17536F8E1BC4577600F7A26D /* LaunchScreen.storyboard */,
 				17536F911BC4577600F7A26D /* Info.plist */,
@@ -151,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				17536F881BC4577600F7A26D /* ViewController.m in Sources */,
+				17536F991BC457C000F7A26D /* MagicalCreature.m in Sources */,
+				17AEFFF71BC4F6EB003897C5 /* BattleViewController.m in Sources */,
 				17536F851BC4577600F7A26D /* AppDelegate.m in Sources */,
+				17536F9C1BC4620800F7A26D /* CreatureViewController.m in Sources */,
 				17536F821BC4577600F7A26D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +317,7 @@
 				17536F961BC4577600F7A26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
