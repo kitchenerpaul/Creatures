@@ -28,6 +28,9 @@
     [super viewDidLoad];
 
     [self populateCreaturesArray];
+
+    self.creatureTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+
 }
 
 -(void)populateCreaturesArray {
